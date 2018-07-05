@@ -11,19 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    $links = [
-        'https://www.linkedin.com/in/enrique-prieto-726198137/' => 'Linkedin',
-        'https://twitter.com/kikepriet' => 'Twitter',
-        'https://www.facebook.com/jesus.enrique.prieto' => 'Facebook' 
-    ];
-    
-    return view('welcome', [
-       // 'teacher' => 'Guido Contreras Woda',
-        'links' => $links,
-    ]);
-});
+Route::get('/', 'PagesController@home');
 
-Route::get('/acerca', function () {
-    return view('about');
-});
