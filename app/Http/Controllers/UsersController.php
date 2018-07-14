@@ -16,6 +16,11 @@ class UsersController extends Controller
         ]);
     }
 
+    public function follow($username, Request $_request)
+    {
+        
+    }
+
     public function follows($username)
     {
         $user = User::where('username', $username)->first();
