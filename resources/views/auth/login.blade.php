@@ -60,13 +60,13 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="row d-flex justify-content-center mt-4">
+                            <a href="/auth/facebook" class="btn btn-primary"> Login con Facebook </a>
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="row">
-    <a href="/auth/facebook" class="btn btn-primary"> Login con Facebook </a>
 </div>
 @endsection
