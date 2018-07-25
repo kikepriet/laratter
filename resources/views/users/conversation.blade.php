@@ -9,7 +9,7 @@
             {{ $message->user->name }} dijo...
         </div>
         <div class="card-block">
-            <p><b>{{ $message->message }}</b></p>
+            <p class="m-3"><b>{{ $message->message }}</b></p>
         </div>
         <div class="card-footer">
             <small>{{ $message->created_at }}</small>
